@@ -1,0 +1,8 @@
+@media only screen (max-width: 361px){
+    .hero-text{
+       position: relative;
+        top: 5%;
+        left: 40%;
+       
+    }
+}

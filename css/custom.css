@@ -1,0 +1,128 @@
+h1{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'lato';
+}
+header{
+    background-image: linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../imgs/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/*--------- Hero Text--------*/
+.hero-text{
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    text-align: center;
+}
+.hero-text h2{
+    font-size: 300%;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(230, 48, 109) ;
+
+}
+.hero-text h4{
+    margin-top: 8px;
+    font-size: 120%;
+    font-weight: 200;
+    color: white;    
+}
+.signup{
+    margin-top: 30px;
+    color: white;
+}
+span{
+    color: rgb(230, 48, 109) ;
+}
+.newUser{
+    color: white;
+}
+
+/*--------- Login form--------*/
+.form-layout{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    background-color: rgb(245, 241, 241);
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: 0 2px 5px #8f8e8e;
+}
+ 
+
+.signup-form-layout{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    background-color: rgb(245, 241, 241);
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: 0 2px 5px #8f8e8e;
+}
+input{
+    border: none;
+    background-color: none ;
+
+    
+}
+input:focus{
+    border-bottom: 4px solid rgb(230, 48, 109);    
+}
+.login{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(230, 48, 109);
+    padding: 30px 0;
+}
+.remove{
+    display: none;
+}
+.form-group{
+    text-align: center;
+    margin-top: 30px;
+}
+select{
+    outline: none;
+    border: none;
+    margin: 15px 0;
+    width: 80%;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(230, 48, 109) ;
+}
+option{
+    border: none;
+    outline: none;
+}
+input[type=text],
+input[type=password]{
+    margin: 15px 0;
+    width: 80%;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(230, 48, 109) ;
+}
+a{
+    margin: 20px 0;
+    font-size: 15px;
+}
+button{
+    padding: 7px 35px;
+    background-color: rgb(230, 48, 109);
+    cursor: pointer;
+    border: 1px solid rgb(230, 48, 109);
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+
+}
